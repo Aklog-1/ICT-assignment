@@ -87,7 +87,7 @@ main > * {
     background-position: center;
 }
 .third-section h1 {
-    width: 70%;
+    width: 80%;
     margin-bottom: 2em; 
 }
 
@@ -190,7 +190,7 @@ main > * {
 
 .fifth-section {
     color: white;
-    background: linear-gradient(#000000c1, #000000c1), url("/images/Customer-Service-providers.jpg");
+    background: linear-gradient(#000000c1, #000000c1), url("/images/Customer-Service-providers.JPG");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -292,4 +292,16 @@ footer div + div {
 
 footer ul, footer p {
     color: #ffffffcc;
+}
+
+
+
+.column-mobile {
+    color: var(--dark-primary-color)
+}
+.column-wifi{
+    color: var(--blue-touch-color);
+}
+.column-deals {
+    color: var(--brown-touch-color);
 }
