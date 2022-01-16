@@ -1,0 +1,16 @@
+
+
+
+.white > div > div {
+    transition: .2s;
+}
+.white > div > div:hover{
+    transform: scale(1.03, 1.03);
+    border-radius: .5em;
+}
+.white p, .black p {
+    margin-bottom: 0;
+}
+.white h1 {
+    margin-bottom: 1em;
+}
