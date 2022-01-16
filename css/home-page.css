@@ -32,6 +32,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    animation: slide-in 1s ease-in-out 1;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 
 .navigation-bar {
@@ -58,7 +68,6 @@ main > * {
     padding: 5em 18em;
     min-height: 50vh;
 }
-
 .landing-section {
     height: calc(100vh - 7rem); /*height of the header*/
     background: linear-gradient(#00000085, #00000055), url("../images/landing-image.jpg");
@@ -74,6 +83,21 @@ main > * {
 }
 .landing-section-content h1 {
     margin-bottom: 1em;
+}
+.landing-special-touch {
+    animation: special-touch 1s ease-in-out 1;
+}
+
+@keyframes special-touch {
+    0% {
+        transform: translateY(-80%);
+        visibility: hidden;
+    }
+    100% {
+        transform: translateY(0);
+        visibility: visible;
+    }
+
 }
 
 
