@@ -81,7 +81,7 @@ main > * {
 
 
 .third-section {
-    background: linear-gradient(#000000b1, #000000b1), url("./images/unllimited-acess-bg.jpeg");
+    background: linear-gradient(#000000b1, #000000b1), url("../images/unllimited-acess-bg.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -190,7 +190,7 @@ main > * {
 
 .fifth-section {
     color: white;
-    background: linear-gradient(#000000c1, #000000c1), url("./images/Customer-Service-providers.jpg");
+    background: linear-gradient(#000000c1, #000000c1), url("../images/Customer-Service-providers.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
