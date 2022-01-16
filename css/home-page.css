@@ -10,13 +10,17 @@
     --gray-touch-color: #c4c4c4;
     --circle-decoration: #89754480;
     --low-opacity-white: #ffffff80;
+    --hover-effect: #E0D937;
 }
 
 * {
     padding: 0; margin: 0;
     font-family: 'Roboto';
 }
-
+a {
+    text-decoration: none;
+    color: black;
+}
 
 /************ layout ******************/
 
@@ -36,6 +40,16 @@ header {
 }
 .navigation-bar li {
     margin-left: 1em;
+}
+.nav-links {
+    text-decoration: none;
+    color: white;
+}
+.nav-links:hover {
+    color: var(--hover-effect);
+}
+.nav-links:active {
+    color: var(--hover-effect);
 }
 
 
@@ -98,9 +112,9 @@ main > * {
 .three-columns div + div {
     margin-left: 4em;
 }
-/* .column-mobile h2, .column-wifi h2, .column-deals h2 {
-    text-align: center;
-} */
+.three-columns p {
+    margin-bottom: 2em;
+}
 .column-mobile div, .column-wifi div, .column-deals div{
     padding: 2em;
     margin-top: 2em;
@@ -115,14 +129,26 @@ main > * {
     background-color: var(--brown-touch-color);
 }
 
-.learn-more {
-    border: none;
+.learn-more, .contact-us {
+
     padding: 1em 1.5em;
     background-color: var(--gray-touch-color);
     margin-top: 2em;
     border-radius: .5em;
+    
+    outline: solid 2px var(--gray-touch-color);
+    transition: .3s ease-in-out;
 }
-
+.learn-more:hover, .contact-us:hover {
+    color: white;
+    background-color: transparent;
+    font-size: 1rem;
+    outline: solid 2px white;
+    outline-offset: -5px;
+}
+.contact-us:hover {
+    font-size: 1rem !important;
+}
 
 
 
@@ -213,14 +239,23 @@ main > * {
 .sixth-section div {
     margin: auto;
 }
-.sign-up-button{
+.sixth-section p {
+    margin-bottom: 1em;
+}
+.sign-up{
     background-color: var(--bright-primary-color);
-    margin-top: 3em;
     padding: 1em 2.5em;
     border: none;
+    outline: solid 2px white;
+    transition: .2s;
 }
 
-
+.sign-up:hover {
+    outline: solid 2px white;
+    outline-offset: -5px;
+    background-color: var(--circle-decoration);
+    border-radius: .5em;
+}
 
 
 
@@ -248,12 +283,12 @@ footer div + div {
 
 
 
-
 /* *****typograph********* */
 
 .navigation-bar {
     color: white;
     font-size: 1.1rem;
+    text-transform: uppercase;
 }
 .landing-section-content > h1 {
     font-family: 'Proza Libre';
@@ -286,11 +321,11 @@ footer div + div {
     color: var(--dark-primary-color);
     font-size: 3rem;
 }
-.sixth-section button {
-    font-size: 1.2rem;
+.learn-more {
+    font-size: .8rem;
 }
-
 .contact-us {
+    font-size: 1rem;
     background-color: var(--brown-touch-color);
     border: none;
 }
@@ -299,6 +334,9 @@ footer ul, footer p {
     color: #ffffffcc;
 }
 
+footer .nav-links {
+    color: #ffffffcc;
+}
 
 
 .column-mobile {

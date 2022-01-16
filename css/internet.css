@@ -1,0 +1,17 @@
+
+
+.third-section {
+    background: linear-gradient(#000000b1, #000000b1), url("../images/internet-connections.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.three-columns > div > div {
+    transition: .2s;
+}
+.three-columns > div > div:hover{
+    transform: scale(1.03, 1.03);
+    border-radius: .5em;
+}
+.three-columns p {
+    margin-bottom: 0;
+}

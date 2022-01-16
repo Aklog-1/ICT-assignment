@@ -1,0 +1,13 @@
+
+
+
+.landing-section {
+    background: linear-gradient(#000000d5, #000000b5), url("../images/mobile-network-system.jpg");
+}
+.landing-section-content  {
+    transform: translateY(-50%);
+    width: 40%;
+}
+.landing-section-content p {
+    width: 50%;
+}
