@@ -1,16 +1,19 @@
 
 
 
-.white > div > div {
-    transition: .2s;
-}
-.white > div > div:hover{
-    transform: scale(1.03, 1.03);
-    border-radius: .5em;
-}
 .white p, .black p {
     margin-bottom: 0;
 }
 .white h1 {
     margin-bottom: 1em;
+}
+
+.column-wifi div, .column-mobile div, .column-deals div {
+    box-shadow: 2px 2px 2px black;
+    transition: .2s;
+    border-radius: .5em;
+}
+.column-wifi div:hover, .column-mobile div:hover, .column-deals div:hover {
+    transform: scale(1.03, 1.03);
+    box-shadow: 3px 3px 3px black;
 }
