@@ -18,7 +18,7 @@ body {
     font-size: 16px;
     font-family: Poppins, "sans sarif";
     color: white;
-    background: url("images/bg-intro-mobile.png"), hsl(154, 59%, 51%);
+    background: hsl(154, 59%, 51%);
     
     padding: 5em 2em;
 

@@ -1,5 +1,5 @@
 
-const submitButton = document.querySelector(".claim");
+const submitButton = document.querySelector(".join");
 const inputs = document.querySelectorAll("input");
 const errImgs = document.querySelectorAll(".err-img");
 const errTips = document.querySelectorAll(".error-tip");
