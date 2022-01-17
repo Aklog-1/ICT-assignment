@@ -43,7 +43,14 @@ header {
         transform: translateX(0);
     }
 }
-
+.logo {
+    color: var(--bright-primary-color);
+    font-size: 1.5rem;
+}
+.logo span {
+    font-size: 2rem;
+    color:yellowgreen;
+}
 .navigation-bar {
     list-style: none;
     display: flex;
